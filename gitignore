@@ -5,3 +5,5 @@ dist
 *.swp
 get_user_agent.egg-info/
 get_user_agent.egg-info
+get_ua.egg-info
+get_ua.egg-info/
