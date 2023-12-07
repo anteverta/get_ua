@@ -1,9 +1,0 @@
-LICENSE
-README.md
-setup.py
-get_user_agent/__init__.py
-get_user_agent/get_user_agent.py
-get_user_agent.egg-info/PKG-INFO
-get_user_agent.egg-info/SOURCES.txt
-get_user_agent.egg-info/dependency_links.txt
-get_user_agent.egg-info/top_level.txt

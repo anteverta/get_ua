@@ -1,4 +1,7 @@
 *.egg-info
 dist/
+dist
 *.pyc
 *.swp
+get_user_agent.egg-info/
+get_user_agent.egg-info
