@@ -7,45 +7,45 @@ Simple Python library to generate random user agents based on different criteria
 You can install it using `pip`. Open a terminal and run:
 
 ```bash
-pip install get_user_agent
+pip install get_ua
 ```
 ## Usage
 ```
-from get_user_agent import GetUserAgent
+import get_ua
 
-# Create an instance of the GetUserAgent class
-user_agent_gen = GetUserAgent()
+# Create an instance of the get_ua class
+ua = get_ua()
 
 # Get a random user agent for a specific browser, OS, and device type
-random_agent = user_agent_gen.random(browser='Chrome', os='Windows', device='desktop')
-print("Random User Agent (filtered):", random_agent)
+random_ua = ua.random(browser='Chrome', os='Windows', device='desktop')
+print("Random User Agent (filtered):", random_ua)
 
 # Get a random user agent for a specific browser
-random_browser_agent = user_agent_gen.by_browser(browser='Firefox')
-print("Random User Agent by Browser:", random_browser_agent)
+random_browser_ua = ua.by_browser(browser='Firefox')
+print("Random User Agent by Browser:", random_browser_ua)
 
 # Get a random user agent for a specific operating system
-random_os_agent = user_agent_gen.by_os(os='iOS')
-print("Random User Agent by OS:", random_os_agent)
+random_os_ua = ua.by_os(os='iOS')
+print("Random User Agent by OS:", random_os_ua)
 
 # Get a random user agent for a specific device type
-random_device_agent = user_agent_gen.by_device(device='mobile')
-print("Random User Agent by Device:", random_device_agent)
+random_device_ua = ua.by_device(device='mobile')
+print("Random User Agent by Device:", random_device_ua)
 
 # Get a list of user agents for a specific browser
-browser_agents = user_agent_gen.list_by_browser(browser='Chrome')
-print("User Agents by Browser:", browser_agents)
+browser_ua = ua.list_by_browser(browser='Chrome')
+print("User Agents by Browser:", browser_ua)
 
 # Get a list of user agents for a specific operating system
-os_agents = user_agent_gen.list_by_os(os='Android')
-print("User Agents by OS:", os_agents)
+os_ua = ua.list_by_os(os='Android')
+print("User Agents by OS:", os_ua)
 
 # Get a list of user agents for a specific device type
-device_agents = user_agent_gen.list_by_device(device='tablet')
+device_ua = ua.list_by_device(device='tablet')
 
-print("User Agents by Device:", device_agents)
+print("User Agents by Device:", device_ua)
 
 # Get a list of all user agents
-all_agents = user_agent_gen.list_all()
-print("All User Agents:", all_agents)
+all_ua = ua.list_all()
+print("All User Agents:", all_ua)
 ```

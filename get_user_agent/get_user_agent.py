@@ -1,7 +1,7 @@
 import json
 import random
 
-class get_user_agent:
+class get_ua:
     def __init__(self):
         json_file_path = "user_agents.json"
         with open(json_file_path, 'r') as file:

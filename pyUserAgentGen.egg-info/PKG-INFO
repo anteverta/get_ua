@@ -1,5 +1,5 @@
 Metadata-Version: 2.1
-Name: get-user-agent
+Name: pyUserAgentGen
 Version: 0.1
 Summary: A Python library for generating random user agents
 Home-page: https://github.com/anteverta/get_user_agent
