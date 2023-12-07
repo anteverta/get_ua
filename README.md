@@ -42,9 +42,10 @@ print("User Agents by OS:", os_agents)
 
 # Get a list of user agents for a specific device type
 device_agents = user_agent_gen.list_by_device(device='tablet')
-```
+
 print("User Agents by Device:", device_agents)
 
 # Get a list of all user agents
 all_agents = user_agent_gen.list_all()
 print("All User Agents:", all_agents)
+```
