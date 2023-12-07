@@ -1,10 +1,10 @@
 # Get User Agent
 
-`get_user_agent` is a simple Python library to generate random user agents based on different criteria such as browser, operating system, and device type. It provides an easy way to retrieve user agents for testing and other purposes.
+Simple Python library to generate random user agents based on different criteria such as browser, operating system, and device type. It provides an easy way to retrieve user agents for testing and other purposes.
 
 ## Installation
 
-To use `get_user_agent`, you can install it using `pip`. Open a terminal and run:
+You can install it using `pip`. Open a terminal and run:
 
 ```bash
 pip install get_user_agent
