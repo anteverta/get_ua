@@ -8,8 +8,9 @@ To use `get_user_agent`, you can install it using `pip`. Open a terminal and run
 
 ```bash
 pip install get_user_agent
-
-Usage
+```
+##Usage
+```
 from get_user_agent import GetUserAgent
 
 # Create an instance of the GetUserAgent class
@@ -41,6 +42,7 @@ print("User Agents by OS:", os_agents)
 
 # Get a list of user agents for a specific device type
 device_agents = user_agent_gen.list_by_device(device='tablet')
+```
 print("User Agents by Device:", device_agents)
 
 # Get a list of all user agents
