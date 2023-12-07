@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='get_ua',
-    version='0.2',
+    version='2023.12.07',
     packages=find_packages(),
     install_requires=[
         # No external dependencies for now
