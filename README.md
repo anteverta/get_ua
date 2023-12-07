@@ -9,7 +9,7 @@ To use `get_user_agent`, you can install it using `pip`. Open a terminal and run
 ```bash
 pip install get_user_agent
 ```
-##Usage
+## Usage
 ```
 from get_user_agent import GetUserAgent
 
