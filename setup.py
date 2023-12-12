@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='get_ua',
-    version='20231212.2',
+    version='20231212.3',
     packages=find_packages(),
     package_data={'get_ua': ['user_agents.json']},
     install_requires=[

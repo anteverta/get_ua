@@ -4,7 +4,7 @@ import os
 
 class ua:
     def __init__(self):
-        json_file_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'user_agents.json')
+        json_file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'user_agents.json')
         with open(json_file_path, 'r') as file:
             self.user_agents = json.load(file)
 
